@@ -148,6 +148,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3047de67e7156cb41b74c3ad59e16bca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _renderer: {fileID: 3158033509767479508}
+  <Rigidbody>k__BackingField: {fileID: 3334594598344234786}
+  <Collider>k__BackingField: {fileID: 7923743645370933236}
 --- !u!114 &5527193937484153001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,7 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30a53cdbede4fce4d857dc7512dc0b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _controllerCube: {fileID: 8306046027623438649}
+  cube: {fileID: 8306046027623438649}
   _scaleReduce: 2
   _minCountGenerate: 2
   _maxCountGenerate: 6
@@ -178,6 +181,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _generateCube: {fileID: 5527193937484153001}
-  _controllerCube: {fileID: 8306046027623438649}
+  _cube: {fileID: 8306046027623438649}
   _forceExplode: 500
   _radiusExplode: 5
